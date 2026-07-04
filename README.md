@@ -1,8 +1,10 @@
 # Desafio técnico retrieval de livros pré RAG
 
-Este projeto implementa um pipeline de **Retrieval-Augmented Generation (RAG)** focado exclusivamente na etapa de **recuperação de informação**, sem utilização de um Large Language Model (LLM).
+Este projeto foi desenvolvido como parte de um desafio técnico do programa de bolsas AI/R da Compass UOL, cujo objetivo era construir um pipeline de Retrieval-Augmented Generation (RAG) focado exclusivamente na etapa de recuperação de informação, sem o uso de um Large Language Model (LLM).
 
-O objetivo é construir um mecanismo capaz de localizar trechos semanticamente relevantes em uma coleção de livros utilizando **embeddings** e **busca vetorial**.
+O desafio consistiu em desenvolver um sistema capaz de processar uma coleção de livros em formato HTML, transformando seu conteúdo em representações vetoriais (embeddings) para realizar buscas semânticas eficientes. Ao final, o sistema deve recuperar os trechos mais relevantes para uma determinada consulta, servindo como a base de um pipeline RAG.
+
+Este projeto implementa todas as etapas propostas, desde a extração e processamento dos documentos até a recuperação dos Top-10 trechos semanticamente mais relevantes, demonstrando como técnicas de embeddings e busca vetorial podem ser utilizadas para construir sistemas inteligentes de recuperação de informação.
 
 ---
 
